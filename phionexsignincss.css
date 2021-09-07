@@ -1,0 +1,204 @@
+body{
+    background: lightyellow;
+}
+
+.masterbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:200vh;
+    width: 100%;
+}
+.box-1{
+    display: flex;
+    flex-direction:row;
+    height: 65px;
+    border: 1px solid black;
+    width:100%;
+}
+.navigationbar{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navelements{
+    display: flex;
+    justify-content:space-around;
+    width:30%;
+    height:65px;
+    align-items: center;
+    list-style: none;
+}
+.navelelement-1:hover{
+    font-size: 23px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.logo{
+    max-width: 150%;
+    max-height: 150%;
+}
+.logolabel{
+    display: flex;
+    align-items: center;
+    height:65px;
+    width:25%;
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;}
+
+.box-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:40%;
+    background: rgb(248, 138, 60);
+    border-radius: 20px;
+    margin-top: 100px;
+    height:600px;
+}
+hr{
+    width:100%;
+    color: black;
+    margin-top: 40px;
+    
+}
+.loginandsignup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.logintext{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 34px;
+}
+.noaccounttext{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.anchor{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.email{
+    width: 460px;
+    height: 50px;
+   margin-top: 50px;
+    background: rgba(219, 216, 47, 0.3);
+    border-radius: 20px;
+    color: #000000;
+    font-size: 20px;
+}
+.password{
+    width: 460px;
+    height: 50px;
+    margin-top: 15px;
+    background: rgba(219, 216, 47, 0.3);
+    border-radius: 20px;
+    color: #000000;
+    font-size: 20px;
+}
+.rememberme{
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight:540;
+    font-size: 15px;
+    line-height: 14px;
+    letter-spacing: -0.05em;
+    color: #000000;
+}
+.meandforgot{
+    display: flex;
+    width:86%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.login{
+    margin-left:285px;
+    width: 178px;
+    height: 60px;
+    margin-top: 20px;
+    background: rgba(68, 48, 48, 0.4);
+    opacity: 0.5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 30px rgba(110, 109, 109, 0.2);
+    border-radius: 20px;
+}
+.google{
+    width: 487px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+    
+}
+.or{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+::placeholder{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color:rgb(61, 58, 58)
+    
+}
+.box-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.paracontent-1{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.socialelements{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    width:320px;
+    margin-right:35px;
+}
+.socialelementssize{
+    max-width:150%;
+    max-height:150%;
+    margin: 20px 20px 20px 20px;
+}
