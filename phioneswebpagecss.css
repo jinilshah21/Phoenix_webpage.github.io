@@ -28,8 +28,11 @@ body{
     height:65px;
     align-items: center;
     list-style: none;
-    
 }
+.navelelement-1:hover{
+    font-size: 23px;
+}
+
 a{
     text-decoration: none;
     color:rgb(0, 0, 0);
