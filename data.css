@@ -1,0 +1,36 @@
+#userList {
+    margin:0;
+    padding:0;
+    width:200px;
+    float:left;
+    margin:10px;
+    border:1px solid #4fc3fc;
+   }
+   
+   #userList h2 {
+    padding:10px;
+    margin:0;
+    color:white;
+   }
+   
+   #userList li {
+    padding:5px 10px;
+    border-top:1px solid #4fc3fc;
+    cursor: pointer;
+    color:rgb(12, 11, 11);
+    font-style: italic;
+   }
+   
+   #userList li:hover {
+    background: #4fc3fc;
+   }
+   
+   #userDetail {
+    float:left;
+    width:200px;
+    margin:10px;
+    margin-left:0;
+    padding:10px;
+    border:1px solid #4fc3fc;
+    color:rgb(182, 89, 182);
+   }
