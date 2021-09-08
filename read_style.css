@@ -1,0 +1,124 @@
+body{
+  background: lightyellow;
+}
+
+.masterbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:200vh;
+  width: 100%;
+}
+.box-1{
+  display: flex;
+  flex-direction:row;
+  height: 65px;
+  border: 1px solid black;
+  width:100%;
+}
+.navigationbar{
+  width:100%;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navelements{
+  display: flex;
+  justify-content:space-around;
+  width:30%;
+  height:65px;
+  align-items: center;
+  list-style: none;
+}
+.navelelement-1:hover{
+  font-size: 23px;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.logo{
+  max-width: 150%;
+  max-height: 150%;
+}
+.logolabel{
+  display: flex;
+  align-items: center;
+  height:65px;
+  width:25%;
+  color:rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;}
+
+#userList {
+ display: flex;
+ flex-direction: column;
+  width:420px;
+  margin:10px;
+  margin-right:10px;
+  border-radius: 10px;
+  border:1px solid black;
+ }
+ 
+  h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  
+  color:rgb(0, 0, 0);
+ }
+ 
+ #userList li {
+  height:30px;
+  width:400px;
+  border:1px solid #000000;
+  border-radius: 0px;
+  cursor: pointer;
+  padding:10px;
+  color:rgb(0, 0, 0);
+  font-style:normal;
+  font-family: sans-serif;
+  
+ }
+ 
+ #userList li:hover {
+  background: #e0bd1e;
+ }
+ 
+ #userDetail {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width:400px;
+  margin:10px;
+  border:1px solid #000000;
+  font-family: sans-serif;
+  font-weight: 540;
+  color:rgb(0, 0, 0);
+ }
+ .infoboxmajor{
+   display: flex;
+   flex-direction: column;
+   border:1px solid black;
+   margin-top:50px;
+   align-items: center;
+   border-radius: 20px;
+   width:80%;
+   background:rgb(248, 138, 60) ;
+   
+ }
+ .infoboxminor{
+   display: flex;
+   flex-direction: row;
+
+   
+ }
+
+ 
